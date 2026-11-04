@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="page">
+  <div class="container">
+    <h1>Bhagavad Gita Insights</h1>
+    <p class="subtitle">Express what you are feeling to receive timeless wisdom</p>
+
+    <form action="/" method="post" class="feeling-form">
+      <label for="content">Your Current State of Mind</label>
+      <input
+        type="text"
+        id="content"
+        name="content"
+        placeholder="e.g. I feel anxious about the future…"
+        autocomplete="off"
+        required
+      >
+      <button type="submit">Seek Guidance</button>
+    </form>
+
+    {% if content %}
+      <p class="result">You entered: <strong>{{ content }}</strong></p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

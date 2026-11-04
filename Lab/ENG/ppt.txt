@@ -1,0 +1,13 @@
+Slide 4: How Deep Learning Works
+
+Thank you! Deep learning works through five main steps. First, the system receives input, such as an image or text. Next, it processes the data to identify patterns and predicts an output. The prediction is compared with the expected result to calculate the error. Finally, the network adjusts its weights to improve its predictions during training.
+
+Slide 5: A Network of Weighted Connections
+
+An Artificial Neural Network, or ANN, is a computing model inspired by biological neurons. It consists of interconnected artificial neurons that process information through weighted connections. These networks are useful for classification, prediction, and pattern recognition. For example, a neural network can classify an email as spam or not spam.
+
+Slide 6: Layers Turn Raw Data into Meaning
+
+A neural network has three main types of layers. The input layer receives raw data, such as image pixels. The hidden layers process the information and learn patterns. Finally, the output layer produces the result. For example, when an image is given as input, the network may classify it as a cat or a dog.
+
+Now, my teammate will explain how neural networks learn and their real-world applications.
